@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DuoWatch
+
+DuoWatch is a web application designed for two users to engage in live chatting, video calling, and eventually movie streaming. It provides a real-time, peer-to-peer communication experience.
+
+## Repository Structure
+
+- `/duowatch` - The main web application directory containing the frontend and backend logic.
+
+## Features
+
+- **Live Chatting**: Real-time messaging between users.
+- **Video Calling**: Peer-to-peer video and audio communication.
+- **Authentication**: Secure login using Email and OAuth providers.
+
+## Tech Stack
+
+- **Frontend**: ReactJS, React Router, HTML, CSS, JavaScript
+- **Backend**: Custom Express Server (`index.js`) with Node.js
+- **Real-time Communication**: Socket.io (for Chatting and WebRTC Signaling)
+- **Video Calling**: WebRTC API
+- **Database**: Prisma ORM with SQLite (scalable to PostgreSQL)
+- **Authentication**: NextAuth.js (Auth.js)
 
 ## Getting Started
 
-First, run the development server:
+Currently, the web app (ReactJS frontend + Express backend) is initialized inside the `duowatch` folder.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Navigate to the app directory:
+   ```bash
+   cd duowatch
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server (Note: Once the custom server is set up, this command will change):
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Roadmap
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Implement real-time live chatting.
+2. Integrate WebRTC for video calling.
+3. Add movie streaming capabilities.
