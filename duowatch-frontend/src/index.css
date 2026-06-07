@@ -1,1 +1,112 @@
 @import "tailwindcss";
+
+/* Base reset */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+  background: #0a040b;
+  color: #fdfbf7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(253, 164, 175, 0.25); border-radius: 99px; }
+
+/* Font utilities */
+.serif-brand {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.4); }
+}
+
+@keyframes floatHeart {
+  0% { transform: translateY(0) scale(1) rotate(0deg); opacity: 0.7; }
+  100% { transform: translateY(-160px) scale(0.3) rotate(35deg); opacity: 0; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes pulseHeart {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+@keyframes candleGlow {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.65; transform: scale(1.08); }
+}
+
+@keyframes dashMove {
+  to { stroke-dashoffset: -20; }
+}
+
+@keyframes ringExpand {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes flowerDrift {
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 0; }
+  15% { opacity: 0.5; }
+  85% { opacity: 0.5; }
+  100% { transform: translate(40px, -120px) rotate(180deg); opacity: 0; }
+}
+
+/* Utility animation classes */
+.anim-float { animation: floatY 4s ease-in-out infinite; }
+.anim-float-delayed { animation: floatY 4s ease-in-out infinite 2s; }
+.anim-pulse-heart { animation: pulseHeart 2s ease-in-out infinite; }
+.anim-glow { animation: candleGlow 6s ease-in-out infinite; }
+.anim-dash { animation: dashMove 1.8s linear infinite; }
+.anim-ring { animation: ringExpand 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+.anim-spin { animation: spin 1s linear infinite; }
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  animation: twinkle var(--dur, 3s) ease-in-out var(--delay, 0s) infinite;
+}
+
+.heart-particle {
+  position: absolute;
+  pointer-events: none;
+  animation: floatHeart var(--dur, 5s) ease-in-out var(--delay, 0s) infinite;
+}
+
+/* Custom cursor default hide */
+@media (pointer: fine) {
+  body, a, button, input, select, textarea {
+    cursor: none !important;
+  }
+}
+
+.flower-petal {
+  position: absolute;
+  pointer-events: none;
+  animation: flowerDrift var(--dur, 6s) ease-in-out var(--delay, 0s) infinite;
+}
+
+.paper-line {
+  background-image: linear-gradient(rgba(253, 164, 175, 0.15) 1px, transparent 1px);
+  background-size: 100% 28px;
+}
