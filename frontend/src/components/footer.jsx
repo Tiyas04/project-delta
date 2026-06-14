@@ -35,7 +35,7 @@ const footerCols = {
 const Footer = () => {
 
     return (
-        <footer style={{
+        <footer className='rounded-4xl' style={{
             background: '#05060f',
             borderTop: '1px solid rgba(255,255,255,0.05)',
         }}>

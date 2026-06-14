@@ -142,29 +142,6 @@ const Hero = () => {
               </div>
             ))}
           </div>
-
-          {/* Available on */}
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: 14, marginTop: 12,
-          }}>
-            <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.35)', fontWeight: 500 }}>Available on</span>
-            {[
-              { icon: <Monitor size={16} />, id: 'win' },
-              { icon: <Laptop size={16} />, id: 'mac' },
-              { icon: <Smartphone size={16} />, id: 'android' },
-              { icon: <Globe size={16} />, id: 'web' },
-            ].map(({ icon, id }, i) => (
-              <div key={i} id={`hero-platform-${id}`} style={{
-                width: 28, height: 28, opacity: 0.55,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                cursor: 'pointer', transition: 'opacity 0.2s',
-                color: 'white',
-              }}
-                onMouseEnter={e => e.currentTarget.style.opacity = '0.9'}
-                onMouseLeave={e => e.currentTarget.style.opacity = '0.55'}
-              >{icon}</div>
-            ))}
-          </div>
         </div>
 
         {/* ── RIGHT: Video Call Card + Join Room ── */}
