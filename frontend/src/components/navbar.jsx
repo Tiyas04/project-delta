@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Zap, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const links = ['Home', 'Features', 'About', 'Contact'];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState('Home');
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -103,6 +105,7 @@ const Navbar = () => {
       <button
         id="nav-btn-get-started"
         className="btn-primary"
+        onClick={() => navigate('/auth')}
         style={{
           padding: '10px 22px',
           borderRadius: 10,
