@@ -28,7 +28,7 @@ const InputField = ({ id, label, type = 'text', icon: Icon, placeholder, value, 
             background: 'rgba(255,255,255,0.04)',
             border: '1px solid rgba(255,255,255,0.1)',
             borderRadius: 12, color: '#fff',
-            fontFamily: 'Inter, sans-serif', fontSize: 15,
+            fontFamily: 'Outfit, sans-serif', fontSize: 15,
             outline: 'none', boxSizing: 'border-box',
             transition: 'all 0.2s ease',
           }}
@@ -68,7 +68,7 @@ const SocialButton = ({ icon, label, id }) => (
       background: 'rgba(255,255,255,0.04)',
       border: '1px solid rgba(255,255,255,0.1)',
       color: 'rgba(255,255,255,0.8)', fontSize: 14, fontWeight: 500,
-      cursor: 'pointer', fontFamily: 'Inter, sans-serif',
+      cursor: 'pointer', fontFamily: 'Outfit, sans-serif',
       transition: 'all 0.2s ease', width: '100%',
     }}
     onMouseEnter={e => {
@@ -119,13 +119,13 @@ const Login = ({ onToggle }) => {
               <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
             </svg>
           </div>
-          <span style={{ fontWeight: 800, fontSize: 20, color: 'white', fontFamily: 'Inter, sans-serif' }}>
+          <span style={{ fontWeight: 800, fontSize: 20, color: 'white', fontFamily: 'Outfit, sans-serif' }}>
             HangoutX
           </span>
         </div>
         <h2 style={{
           fontSize: 28, fontWeight: 800, marginBottom: 8,
-          letterSpacing: '-0.02em', fontFamily: 'Inter, sans-serif', color: '#fff',
+          letterSpacing: '-0.02em', fontFamily: 'Outfit, sans-serif', color: '#fff',
         }}>
           Welcome back
         </h2>
@@ -179,7 +179,7 @@ const Login = ({ onToggle }) => {
             padding: '15px 24px', borderRadius: 12, fontSize: 15, fontWeight: 700,
             background: 'linear-gradient(135deg,#7c3aed 0%,#9333ea 100%)',
             color: '#fff', border: 'none', cursor: 'pointer',
-            fontFamily: 'Inter, sans-serif', marginTop: 4,
+            fontFamily: 'Outfit, sans-serif', marginTop: 4,
             transition: 'all 0.25s ease',
             boxShadow: '0 4px 20px rgba(124,58,237,0.4)',
           }}
@@ -236,7 +236,7 @@ const Login = ({ onToggle }) => {
           onClick={onToggle}
           style={{
             background: 'none', border: 'none', color: '#a855f7',
-            fontWeight: 700, cursor: 'pointer', fontFamily: 'Inter, sans-serif',
+            fontWeight: 700, cursor: 'pointer', fontFamily: 'Outfit, sans-serif',
             fontSize: 14, padding: 0,
           }}
         >

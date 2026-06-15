@@ -65,7 +65,7 @@ const Navbar = () => {
           <Zap size={15} fill="white" color="white" />
         </div>
         <span style={{
-          fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 18,
+          fontFamily: 'Outfit, sans-serif', fontWeight: 700, fontSize: 18,
           color: 'white',
         }}>HangoutX</span>
       </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
             onClick={() => scrollTo(link)}
             style={{
               background: 'none', border: 'none', cursor: 'pointer',
-              fontFamily: 'Inter, sans-serif', fontSize: 15, fontWeight: 500,
+              fontFamily: 'Outfit, sans-serif', fontSize: 15, fontWeight: 500,
               color: active === link ? '#a855f7' : 'rgba(255,255,255,0.65)',
               position: 'relative', padding: '4px 0',
               transition: 'color 0.2s ease',

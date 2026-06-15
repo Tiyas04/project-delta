@@ -28,7 +28,7 @@ const StatBadge = ({ value, label, style }) => (
     boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
     ...style,
   }}>
-    <span style={{ fontSize: 20, fontWeight: 800, color: '#fff', fontFamily: 'Inter, sans-serif', lineHeight: 1 }}>{value}</span>
+    <span style={{ fontSize: 20, fontWeight: 800, color: '#fff', fontFamily: 'Outfit, sans-serif', lineHeight: 1 }}>{value}</span>
     <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.45)', fontWeight: 500 }}>{label}</span>
   </div>
 );
@@ -40,7 +40,7 @@ const AvatarTile = ({ initials, gradient, style }) => (
     background: gradient,
     display: 'flex', alignItems: 'center', justifyContent: 'center',
     fontSize: 18, fontWeight: 800, color: 'white',
-    fontFamily: 'Inter, sans-serif',
+    fontFamily: 'Outfit, sans-serif',
     border: '2px solid rgba(255,255,255,0.1)',
     boxShadow: '0 4px 16px rgba(0,0,0,0.4)',
     ...style,
@@ -63,7 +63,7 @@ const Auth = () => {
       alignItems: 'center',
       justifyContent: 'center',
       padding: '20px',
-      fontFamily: 'Inter, sans-serif',
+      fontFamily: 'Outfit, sans-serif',
     }}>
       {/* Three.js starfield */}
       <ThreeBackground />
@@ -79,7 +79,7 @@ const Auth = () => {
           background: 'rgba(10,8,28,0.8)',
           border: '1px solid rgba(255,255,255,0.12)',
           color: 'rgba(255,255,255,0.75)', fontSize: 14, fontWeight: 600,
-          cursor: 'pointer', fontFamily: 'Inter, sans-serif',
+          cursor: 'pointer', fontFamily: 'Outfit, sans-serif',
           backdropFilter: 'blur(16px)',
           transition: 'all 0.2s ease',
           boxShadow: '0 4px 20px rgba(0,0,0,0.3)',

@@ -74,14 +74,14 @@ const About = () => {
           <h2 style={{
             fontSize: 'clamp(36px,4vw,58px)', fontWeight: 800,
             color: '#fff', letterSpacing: '-0.02em', lineHeight: 1.1,
-            fontFamily: 'Inter, sans-serif', marginBottom: 4,
+            fontFamily: 'Outfit, sans-serif', marginBottom: 4,
           }}>
             Connecting people.
           </h2>
           <h2 style={{
             fontSize: 'clamp(36px,4vw,58px)', fontWeight: 800,
             letterSpacing: '-0.02em', lineHeight: 1.1,
-            fontFamily: 'Inter, sans-serif', marginBottom: 24,
+            fontFamily: 'Outfit, sans-serif', marginBottom: 24,
             background: 'linear-gradient(90deg,#a855f7 0%,#ec4899 60%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
@@ -108,7 +108,7 @@ const About = () => {
               <div key={s.label} className="stat-box">
                 <div style={{
                   fontSize: 24, fontWeight: 800, color: '#fff',
-                  fontFamily: 'Inter, sans-serif',
+                  fontFamily: 'Outfit, sans-serif',
                 }}>{s.value}</div>
                 <div style={{
                   fontSize: 13, color: 'rgba(255,255,255,0.45)', fontWeight: 500,
@@ -135,7 +135,7 @@ const About = () => {
           <div className="badge" style={{ marginBottom: 14 }}>OUR VALUES</div>
           <h3 style={{
             fontSize: 'clamp(24px,3vw,38px)', fontWeight: 700, color: '#fff',
-            fontFamily: 'Inter, sans-serif',
+            fontFamily: 'Outfit, sans-serif',
           }}>
             Built with purpose. Designed for people.
           </h3>
@@ -157,7 +157,7 @@ const About = () => {
               }}>{v.icon}</div>
               <h4 style={{
                 fontSize: 16, fontWeight: 700, color: '#fff',
-                marginBottom: 8, fontFamily: 'Inter, sans-serif',
+                marginBottom: 8, fontFamily: 'Outfit, sans-serif',
               }}>{v.title}</h4>
               <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.6 }}>{v.desc}</p>
             </div>

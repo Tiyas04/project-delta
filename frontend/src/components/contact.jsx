@@ -79,7 +79,7 @@ const InputRow = ({ id, icon, placeholder, name, value, onChange, type = 'text' 
         background: 'rgba(255,255,255,0.03)',
         border: '1px solid rgba(255,255,255,0.09)',
         borderRadius: 10, color: '#fff',
-        fontFamily: 'Inter, sans-serif', fontSize: 14, outline: 'none',
+        fontFamily: 'Outfit, sans-serif', fontSize: 14, outline: 'none',
         transition: 'border-color 0.2s ease',
         boxSizing: 'border-box',
       }}
@@ -138,7 +138,7 @@ const Contact = () => {
             <h2 style={{
               fontSize: 'clamp(32px,3.5vw,50px)', fontWeight: 800,
               color: '#fff', lineHeight: 1.1, letterSpacing: '-0.02em',
-              fontFamily: 'Inter, sans-serif', marginBottom: 16,
+              fontFamily: 'Outfit, sans-serif', marginBottom: 16,
             }}>
               We'd love to<br />hear from{' '}
               <span style={{
@@ -191,7 +191,7 @@ const Contact = () => {
               }}>
                 <MessageSquare size={18} color="white" />
               </div>
-              <span style={{ fontSize: 18, fontWeight: 700, color: '#fff', fontFamily: 'Inter, sans-serif' }}>
+              <span style={{ fontSize: 18, fontWeight: 700, color: '#fff', fontFamily: 'Outfit, sans-serif' }}>
                 Send us a message
               </span>
             </div>
@@ -238,7 +238,7 @@ const Contact = () => {
                       background: 'rgba(255,255,255,0.03)',
                       border: '1px solid rgba(255,255,255,0.09)',
                       borderRadius: 10, color: '#fff',
-                      fontFamily: 'Inter, sans-serif', fontSize: 14,
+                      fontFamily: 'Outfit, sans-serif', fontSize: 14,
                       resize: 'vertical', outline: 'none',
                       boxSizing: 'border-box',
                     }}
@@ -263,7 +263,7 @@ const Contact = () => {
           <div>
             <h3 style={{
               fontSize: 17, fontWeight: 700, color: '#fff', marginBottom: 16,
-              fontFamily: 'Inter, sans-serif',
+              fontFamily: 'Outfit, sans-serif',
             }}>Other ways to reach us</h3>
 
             {contactInfo.map((c) => (

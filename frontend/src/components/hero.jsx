@@ -66,7 +66,7 @@ const Hero = () => {
               lineHeight: 1.08,
               color: '#ffffff',
               letterSpacing: '-0.02em',
-              fontFamily: 'Inter, sans-serif',
+              fontFamily: 'Outfit, sans-serif',
             }}>
               Your space<br />to connect,
             </h1>
@@ -75,7 +75,7 @@ const Hero = () => {
               fontWeight: 800,
               lineHeight: 1.08,
               letterSpacing: '-0.02em',
-              fontFamily: 'Inter, sans-serif',
+              fontFamily: 'Outfit, sans-serif',
               background: 'linear-gradient(90deg,#a855f7 0%,#ec4899 60%,#a855f7 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',

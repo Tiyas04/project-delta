@@ -21,7 +21,7 @@ const Participant = ({ name, gradient, waving }) => (
         border: '2px solid rgba(255,255,255,0.3)',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
         fontSize: 18, fontWeight: 700, color: 'white',
-        fontFamily: 'Inter, sans-serif',
+        fontFamily: 'Outfit, sans-serif',
       }}>{name[0]}</div>
       {waving && (
         <div style={{ fontSize: 16, marginTop: 2 }}>👋</div>
@@ -108,7 +108,7 @@ const VideoCallCard = () => {
               padding: '5px 12px', borderRadius: 8, fontSize: 12,
               background: 'linear-gradient(135deg,#7c3aed,#9333ea)',
               border: 'none', color: 'white', cursor: 'pointer',
-              fontFamily: 'Inter,sans-serif', fontWeight: 600,
+              fontFamily: 'Outfit,sans-serif', fontWeight: 600,
               display: 'flex', alignItems: 'center', gap: 4,
             }}>
               <Monitor size={12} /> Share Screen
@@ -181,7 +181,7 @@ const VideoCallCard = () => {
               className={`chat-tab ${activeTab === tab ? 'active' : ''}`}
               style={{
                 background: 'none', border: 'none', cursor: 'pointer',
-                fontFamily: 'Inter,sans-serif', paddingBottom: 8,
+                fontFamily: 'Outfit,sans-serif', paddingBottom: 8,
               }}
             >{tab}</button>
           ))}

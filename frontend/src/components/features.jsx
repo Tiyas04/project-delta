@@ -86,7 +86,7 @@ const FeatureCard = ({ icon, iconBg, badge, title, desc }) => (
 
     <h3 style={{
       fontSize: 18, fontWeight: 700, color: '#fff',
-      marginBottom: 10, fontFamily: 'Inter, sans-serif',
+      marginBottom: 10, fontFamily: 'Outfit, sans-serif',
     }}>{title}</h3>
     <p style={{
       fontSize: 14, color: 'rgba(255,255,255,0.45)',
@@ -155,14 +155,14 @@ const Features = () => {
           <h2 style={{
             fontSize: 'clamp(32px,3.8vw,52px)', fontWeight: 800,
             color: '#fff', letterSpacing: '-0.02em', lineHeight: 1.12,
-            marginBottom: 8, fontFamily: 'Inter, sans-serif',
+            marginBottom: 8, fontFamily: 'Outfit, sans-serif',
           }}>
             Everything you need
           </h2>
           <h2 style={{
             fontSize: 'clamp(32px,3.8vw,52px)', fontWeight: 800,
             letterSpacing: '-0.02em', lineHeight: 1.12,
-            marginBottom: 20, fontFamily: 'Inter, sans-serif',
+            marginBottom: 20, fontFamily: 'Outfit, sans-serif',
             background: 'linear-gradient(90deg,#a855f7 0%,#ec4899 60%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',

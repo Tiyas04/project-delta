@@ -59,7 +59,7 @@ const Footer = () => {
                         }}>
                             <Zap size={14} fill="white" color="white" />
                         </div>
-                        <span style={{ fontWeight: 700, fontSize: 17, color: 'white', fontFamily: 'Inter, sans-serif' }}>
+                        <span style={{ fontWeight: 700, fontSize: 17, color: 'white', fontFamily: 'Outfit, sans-serif' }}>
                             HangoutX
                         </span>
                     </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                     <div key={col}>
                         <h4 style={{
                             fontSize: 15, fontWeight: 700, color: '#fff', marginBottom: 18,
-                            fontFamily: 'Inter, sans-serif',
+                            fontFamily: 'Outfit, sans-serif',
                         }}>{col}</h4>
                         {links.map((link) => (
                             <a
@@ -95,7 +95,7 @@ const Footer = () => {
                 <div>
                     <h4 style={{
                         fontSize: 15, fontWeight: 700, color: '#fff', marginBottom: 12,
-                        fontFamily: 'Inter, sans-serif',
+                        fontFamily: 'Outfit, sans-serif',
                     }}>Stay Connected</h4>
                     <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.4)', marginBottom: 18, lineHeight: 1.6 }}>
                         Follow us for the latest updates, tips, and announcements.

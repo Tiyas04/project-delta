@@ -7,7 +7,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   background: #080a1a;
   color: #ffffff;
   overflow-x: hidden;
@@ -64,7 +64,7 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
   transition: all 0.25s ease;
   display: inline-flex;
@@ -82,7 +82,7 @@ body {
   color: #e2d9f3;
   border: 1px solid rgba(255,255,255,0.15);
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 500;
   transition: all 0.25s ease;
   display: inline-flex;
@@ -174,7 +174,7 @@ body {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.1);
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 14px;
   transition: border-color 0.2s ease;
   outline: none;
